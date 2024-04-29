@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "yourlog"
+version = "1.0.0"
+authors = [
+  {name="Kiber"},
+]
+description = "Simple python logger"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable"
+]
+license = {file = "LICENSE"}
+
+[project.urls]
+Homepage = "https://github.com/Kiber2009/yourlog"
+Documentation = "https://github.com/Kiber2009/yourlog/wiki"
+Repository = "https://github.com/Kiber2009/yourlog.git"
+Issues = "https://github.com/Kiber2009/yourlog/issues"
+Changelog = "https://github.com/Kiber2009/yourlog/blob/master/CHANGELOG.md"
