@@ -6,18 +6,18 @@ yourlog is a simple python logging library
 ```python
 import yourlog
 
-logger = yourlog.Logger('last.log')
+logger = yourlog.Logger()
 
-logger.add_listener('lastest.log')
+logger.add_listener("lastest.log")
 logger.add_listener(print)
 
-logger.debug('Debug there')
-logger.info('Info here')
-logger.warn('Warn here')
-logger.error('Error here')
-logger.fatal('Fatal there')
+logger.debug("Debug there")
+logger.info("Info there")
+logger.warn("Warn there")
+logger.error("Error there")
+logger.fatal("Fatal there")
 
-logger.custom('Custom type', 'Custom here')
+logger.custom("Custom type", "Custom there")
 ```
 ## Installing
 ```shell
@@ -31,9 +31,9 @@ pip install yourlog
   ```
 * Make sure you have the latest version of PyPA’s build installed
   ```shell
-  py -m pip install --upgrade build
+  python -m pip install --upgrade build
   ```
 * Build the lib
   ```shell
-  py -m build
+  python -m build
   ```
